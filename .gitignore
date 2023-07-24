@@ -37,6 +37,8 @@ resources/electron.js
 .lsp/.cache
 .clj-kondo/.cache
 .clj-kondo/babashka/sci
+.clj-kondo/metosin/malli
+.clj-kondo/rewrite-clj/rewrite-clj/config.edn
 /libs/dist/
 charlie/
 .vscode

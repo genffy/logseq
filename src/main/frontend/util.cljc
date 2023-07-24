@@ -828,6 +828,7 @@
 #?(:cljs
    (defn react
      [ref]
+     #_{:clj-kondo/ignore [:private-call]}
      (if rum/*reactions*
        (rum/react ref)
        @ref)))
